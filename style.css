@@ -33,6 +33,42 @@ nav a:hover {
 
 
 
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.hero-text h1 {
+    font-size: 45px;
+    color: #0b3d91;
+    margin-bottom: 10px;
+}
+
+
+.hero-text h2 {
+    color: #333;
+    border: none;
+    margin-top: 0;
+}
+
+
+
 /* Main Heading */
 
 h1 {
@@ -79,4 +115,59 @@ p, ul {
 
 ul {
     padding-left: 40px;
+}
+
+
+
+/* Hero Text Formatting */
+
+.hero-text p {
+    background-color: transparent;
+    padding: 0;
+}
+
+
+.hero-text a {
+    display: inline-block;
+    background-color: #0b3d91;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.hero-text a:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:700px){
+
+    body {
+        margin: 20px;
+    }
+
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
 }
