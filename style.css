@@ -1,41 +1,59 @@
+/* General Page */
+
 body {
+
     font-family: Arial, sans-serif;
     margin: 40px auto;
     max-width: 900px;
     background-color: #f5f5f5;
     color: #222;
     line-height: 1.6;
+
 }
+
 
 
 /* Navigation Menu */
 
+
 nav {
+
     background-color: white;
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 10px;
     text-align: center;
+
 }
 
 
+
 nav a {
+
     color: #0b3d91;
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
+
 }
+
 
 
 nav a:hover {
+
     text-decoration: underline;
+
 }
+
+
 
 
 
 /* Hero Section */
 
+
 .hero {
+
     display: flex;
     align-items: center;
     gap: 40px;
@@ -43,91 +61,175 @@ nav a:hover {
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
+
 }
 
 
+
 .profile-image {
+
     width: 220px;
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
+
 }
+
+
+
 
 
 .hero-text h1 {
+
     font-size: 45px;
     color: #0b3d91;
     margin-bottom: 10px;
+
 }
+
 
 
 .hero-text h2 {
+
     color: #333;
     border: none;
     margin-top: 0;
+
 }
 
 
 
-/* Main Heading */
+
+
+
+
+/* Headings */
+
 
 h1 {
+
     font-size: 45px;
     color: #0b3d91;
-    margin-bottom: 5px;
+
 }
 
 
 
-/* Section Headings */
-
 h2 {
+
     color: #333;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-top: 35px;
+
 }
+
 
 
 h3 {
+
     color: #0b3d91;
+
 }
+
+
+
+
 
 
 
 /* Text */
 
+
 p, li {
+
     font-size: 18px;
     line-height: 1.6;
+
 }
+
+
+
+
 
 
 
 /* Content Cards */
 
+
 p, ul {
+
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+
 }
+
 
 
 ul {
+
     padding-left: 40px;
+
 }
 
 
 
-/* Hero Text Formatting */
+
+
+
+/* Project Cards */
+
+
+.project-card {
+
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+/* Project Images */
+
+
+.project-image {
+
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+
+
+
+
+
+/* Hero Text */
+
 
 .hero-text p {
+
     background-color: transparent;
     padding: 0;
+
 }
+
+
+
 
 
 .hero-text a {
+
+
     display: inline-block;
     background-color: #0b3d91;
     color: white;
@@ -135,39 +237,180 @@ ul {
     border-radius: 8px;
     text-decoration: none;
     margin-top: 10px;
+
 }
+
 
 
 .hero-text a:hover {
+
     opacity: 0.8;
+
 }
+
+
+
+
+
+
+
+/* Contact Form */
+
+
+form {
+
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+
+}
+
+
+
+form label {
+
+    font-weight: bold;
+
+}
+
+
+
+input,
+textarea {
+
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+
+}
+
+
+
+textarea {
+
+    resize: vertical;
+
+}
+
+
+
+button {
+
+
+    background-color: #0b3d91;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+/* Normal Links */
+
+
+a {
+
+    color: #0b3d91;
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer {
+
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+
+
+footer p {
+
+    background-color: transparent;
+
+}
+
+
+
+
 
 
 
 /* Mobile Responsive */
 
+
 @media(max-width:700px){
 
-    body {
-        margin: 20px;
-    }
+
+body {
+
+    margin: 20px;
+
+}
 
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
+
+.hero {
+
+    flex-direction: column;
+    text-align: center;
+
+}
 
 
-    .profile-image {
-        width: 160px;
-        height: 160px;
-    }
+
+.profile-image {
+
+    width: 160px;
+    height: 160px;
+
+}
 
 
-    nav a {
-        display: block;
-        margin: 10px;
-    }
+
+nav a {
+
+    display: block;
+    margin: 10px;
+
+}
+
+
+
+input,
+textarea {
+
+    width: 85%;
+
+}
+
 
 }
