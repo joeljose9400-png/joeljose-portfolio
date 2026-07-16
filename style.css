@@ -1,4 +1,7 @@
+/* ============================= */
 /* General Page */
+/* ============================= */
+
 
 body {
 
@@ -13,7 +16,11 @@ body {
 
 
 
+
+
+/* ============================= */
 /* Navigation Menu */
+/* ============================= */
 
 
 nav {
@@ -51,7 +58,9 @@ nav a:hover {
 
 
 
+/* ============================= */
 /* Hero Section */
+/* ============================= */
 
 
 .hero {
@@ -105,7 +114,50 @@ nav a:hover {
 
 
 
+
+/* ============================= */
+/* Image Protection Watermark */
+/* ============================= */
+
+
+.image-container {
+
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.watermark {
+
+    position: absolute;
+
+    bottom: 10px;
+
+    right: 10px;
+
+    background-color: rgba(0,0,0,0.6);
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+/* ============================= */
 /* Headings */
+/* ============================= */
 
 
 h1 {
@@ -140,7 +192,9 @@ h3 {
 
 
 
+/* ============================= */
 /* Text */
+/* ============================= */
 
 
 p, li {
@@ -156,7 +210,10 @@ p, li {
 
 
 
+
+/* ============================= */
 /* Content Cards */
+/* ============================= */
 
 
 p, ul {
@@ -181,15 +238,23 @@ ul {
 
 
 
+
+/* ============================= */
 /* Project Cards */
+/* ============================= */
 
 
 .project-card {
 
     background-color: white;
+
     padding: 25px;
+
     margin-bottom: 25px;
+
     border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 
 }
 
@@ -207,15 +272,21 @@ ul {
 
 
 
+/* ============================= */
 /* Project Images */
+/* ============================= */
 
 
 .project-image {
 
     width: 100%;
+
     max-width: 500px;
+
     border-radius: 10px;
+
     display: block;
+
     margin: 20px auto;
 
 }
@@ -226,12 +297,15 @@ ul {
 
 
 
+/* ============================= */
 /* Hero Text */
+/* ============================= */
 
 
 .hero-text p {
 
     background-color: transparent;
+
     padding: 0;
 
 }
@@ -244,11 +318,17 @@ ul {
 
 
     display: inline-block;
+
     background-color: #0b3d91;
+
     color: white;
+
     padding: 12px 20px;
+
     border-radius: 8px;
+
     text-decoration: none;
+
     margin-top: 10px;
 
 }
@@ -268,16 +348,24 @@ ul {
 
 
 
+/* ============================= */
 /* Contact Section */
+/* ============================= */
 
 
 .contact-card {
 
     background-color: white;
+
     padding: 30px;
+
     border-radius: 15px;
+
     text-align: center;
-    margin-top: 20px;
+
+    margin-top: 25px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 
 }
 
@@ -286,22 +374,36 @@ ul {
 .contact-card p {
 
     background-color: transparent;
-    padding: 5px;
+
+    padding: 10px;
 
 }
+
+
+
+
 
 
 
 .contact-button {
 
     display: inline-block;
+
     background-color: #0b3d91;
+
     color: white;
+
     padding: 12px 25px;
+
     margin: 10px;
+
     border-radius: 8px;
+
     text-decoration: none;
+
     font-weight: bold;
+
+    transition: 0.3s;
 
 }
 
@@ -311,6 +413,8 @@ ul {
 
     opacity: 0.8;
 
+    transform: translateY(-2px);
+
 }
 
 
@@ -319,14 +423,19 @@ ul {
 
 
 
-/* Contact Form (Future Use) */
+/* ============================= */
+/* Contact Form */
+/* ============================= */
 
 
 form {
 
     background-color: white;
+
     padding: 25px;
+
     border-radius: 12px;
+
     margin-top: 20px;
 
 }
@@ -344,10 +453,15 @@ form label {
 input,
 textarea {
 
+
     width: 90%;
+
     padding: 12px;
+
     font-size: 16px;
+
     border-radius: 6px;
+
     border: 1px solid #ccc;
 
 }
@@ -364,12 +478,19 @@ textarea {
 
 button {
 
+
     background-color: #0b3d91;
+
     color: white;
+
     padding: 12px 25px;
+
     border: none;
+
     border-radius: 8px;
+
     cursor: pointer;
+
     font-size: 16px;
 
 }
@@ -387,8 +508,28 @@ button:hover {
 
 
 
+/* Form Privacy Message */
 
-/* Normal Links */
+
+.form-privacy {
+
+    font-size: 14px;
+
+    color: #555;
+
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+
+/* ============================= */
+/* Links */
+/* ============================= */
 
 
 a {
@@ -403,13 +544,17 @@ a {
 
 
 
+/* ============================= */
 /* Footer */
+/* ============================= */
 
 
 footer {
 
     text-align: center;
+
     margin-top: 40px;
+
     padding: 20px;
 
 }
@@ -428,7 +573,10 @@ footer p {
 
 
 
+
+/* ============================= */
 /* Mobile Responsive */
+/* ============================= */
 
 
 @media(max-width:700px){
@@ -445,6 +593,7 @@ body {
 .hero {
 
     flex-direction: column;
+
     text-align: center;
 
 }
@@ -454,6 +603,7 @@ body {
 .profile-image {
 
     width: 160px;
+
     height: 160px;
 
 }
@@ -463,6 +613,7 @@ body {
 nav a {
 
     display: block;
+
     margin: 10px;
 
 }
@@ -481,8 +632,26 @@ textarea {
 .contact-button {
 
     display: block;
+
     margin: 15px auto;
+
     width: 70%;
+
+}
+
+
+
+.image-container {
+
+    width: 100%;
+
+}
+
+
+
+.watermark {
+
+    font-size: 10px;
 
 }
 
