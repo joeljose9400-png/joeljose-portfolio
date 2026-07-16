@@ -49,6 +49,8 @@ nav a:hover {
 
 
 
+
+
 /* Hero Section */
 
 
@@ -178,6 +180,7 @@ ul {
 
 
 
+
 /* Project Cards */
 
 
@@ -189,6 +192,15 @@ ul {
     border-radius: 12px;
 
 }
+
+
+
+.project-card:hover {
+
+    transform: translateY(-3px);
+
+}
+
 
 
 
@@ -207,6 +219,7 @@ ul {
     margin: 20px auto;
 
 }
+
 
 
 
@@ -254,7 +267,59 @@ ul {
 
 
 
-/* Contact Form */
+
+/* Contact Section */
+
+
+.contact-card {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+.contact-card p {
+
+    background-color: transparent;
+    padding: 5px;
+
+}
+
+
+
+.contact-button {
+
+    display: inline-block;
+    background-color: #0b3d91;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+
+.contact-button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+/* Contact Form (Future Use) */
 
 
 form {
@@ -298,7 +363,6 @@ textarea {
 
 
 button {
-
 
     background-color: #0b3d91;
     color: white;
@@ -409,6 +473,16 @@ input,
 textarea {
 
     width: 85%;
+
+}
+
+
+
+.contact-button {
+
+    display: block;
+    margin: 15px auto;
+    width: 70%;
 
 }
 
