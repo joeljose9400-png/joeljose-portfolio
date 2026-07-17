@@ -1,8 +1,8 @@
 # Joel Jose - Electronics Engineering Portfolio
 
-Welcome to my Electronics Engineering portfolio.
+Welcome to my Electronics Engineering portfolio repository.
 
-This repository contains my personal portfolio website showcasing my engineering education, technical skills, projects, and learning journey in electronics engineering.
+This repository contains the source code for my personal portfolio website, showcasing my education, engineering projects, technical skills, and learning journey.
 
 ## About Me
 
@@ -16,28 +16,25 @@ My interests include:
 - PCB Design Fundamentals
 - Electronic Circuit Analysis
 - Hardware Testing and Integration
-- Automation and Engineering Applications
+- Automation Applications
 
 ## Education
 
-### New Zealand Diploma in Engineering (Electronics Engineering)
-**New Zealand Skills and Education College (NZSE)**  
-Auckland, New Zealand  
-February 2025 - December 2026
+**New Zealand Diploma in Engineering (Electronics Engineering)**  
+New Zealand Skills and Education College (NZSE), Auckland, New Zealand  
+2025 - 2026
 
-### Diploma in Electrical and Electronics Engineering
-**St. Mary's Polytechnic College**  
-Palakkad, India
+**Diploma in Electrical and Electronics Engineering**  
+St. Mary's Polytechnic College, Palakkad, India
 
-### Bachelor of Commerce (Finance)
-**Christ College**  
-Irinjalakuda, India
+**Bachelor of Commerce (Finance)**  
+Christ College, Irinjalakuda, India
 
-## Projects
+## Project
 
 ### Voice Controlled Robotic Vehicle Using Arduino
 
-An academic prototype developed using:
+Academic prototype developed using:
 
 - Arduino Uno
 - Bluetooth Communication
@@ -45,7 +42,7 @@ An academic prototype developed using:
 - DC Motors
 - Electronic Circuits
 
-Project concepts:
+Key concepts:
 
 - Microcontroller applications
 - Wireless communication
@@ -60,10 +57,9 @@ Project concepts:
 - Electronic Circuit Analysis
 - PCB Design Fundamentals
 - Python Programming Fundamentals
-- Electronic Troubleshooting
-- Hardware Testing
+- Hardware Testing and Troubleshooting
 
-## Engineering Tools
+## Tools
 
 - Arduino IDE
 - Altium Designer
@@ -74,24 +70,15 @@ Project concepts:
 
 ## Portfolio Website
 
-This repository contains the source code for my personal engineering portfolio website.
+Live Website:
 
-Technologies used:
+https://joeljose9400-png.github.io/joeljose-portfolio/
+
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-
-## Future Learning Goals
-
-I am continuously developing my knowledge in:
-
-- Embedded Systems Development
-- IoT Applications
-- Automation
-- PCB Design
-- Electronics Manufacturing
-- Engineering Project Development
 
 ---
 
